@@ -4,8 +4,8 @@
     --primary: #19B7C9;
     --secondary: #E99A6D;
 
-    --background: #07131D;
-    --surface: #102331;
+    --background: #0D1B2A;
+    --surface: #163047;
 
     --text: #F4F7FA;
     --text-muted: #AABBC6;
@@ -95,7 +95,6 @@ img {
 
 .hero-buttons {
     display: flex;
-    gap: 20px;
 }
 
 .primary-button,
@@ -118,18 +117,6 @@ img {
     transform: translateY(-3px);
 
     background-color: var(--hover);
-}
-
-.secondary-button {
-    border: 1px solid rgba(255, 255, 255, 0.15);
-}
-
-.secondary-button:hover {
-    border-color: var(--primary);
-
-    color: var(--primary);
-
-    transform: translateY(-3px);
 }
 
 /* RIGHT SIDE */
