@@ -1,0 +1,50 @@
+:root {
+
+    /* COLORS */
+    --primary: #19B7C9;
+    --secondary: #E99A6D;
+
+    --background: #07131D;
+    --surface: #102331;
+
+    --text: #F4F7FA;
+    --text-muted: #AABBC6;
+
+    --hover: #34D6E8;
+
+    /* TRANSITIONS */
+    --transition: 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+
+    font-family: 'Montserrat', sans-serif;
+
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
